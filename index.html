@@ -9,6 +9,21 @@
     <!-- Theme -->
     <meta name="theme-color" content="#F1ECDC" />
 
+    <!-- Load fonts as early as possible (before the CSS/JS bundle) so text
+         doesn't visibly swap fonts after first paint -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=IBM+Plex+Mono:wght@500;600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Matches the app's --paper background, so there is no white flash
+         before the stylesheet finishes loading -->
+    <style>
+      html, body { background: #F1ECDC; margin: 0; }
+    </style>
+
     <!-- iOS: makes "Add to Home Screen" launch as a standalone app -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
@@ -17,7 +32,8 @@
 
     <!-- Icons -->
     <link rel="icon" type="image/png" href="/icons/favicon.png" />
-    <script type="module" crossorigin src="/assets/index-6mkVAR_l.js"></script>
+    <script type="module" crossorigin src="/assets/index-Cq--qhzx.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-RDWHML9b.css">
   <link rel="manifest" href="/manifest.webmanifest"></head>
   <body>
     <div id="root"></div>
